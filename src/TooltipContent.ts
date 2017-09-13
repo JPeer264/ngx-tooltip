@@ -24,7 +24,7 @@ export class TooltipContent implements AfterViewInit {
     // -------------------------------------------------------------------------
 
     @Input()
-    hostElement;
+    hostElement: any;
 
     @Input()
     content: string;
@@ -89,7 +89,7 @@ export class TooltipContent implements AfterViewInit {
     // Private Methods
     // -------------------------------------------------------------------------
 
-    private positionElements(hostEl, targetEl, positionStr: string, appendToBody: boolean = false): { top: number, left: number } {
+    private positionElements(hostEl: any, targetEl: any, positionStr: string, appendToBody: boolean = false): { top: number, left: number } {
         let positionStrParts = positionStr.split("-");
         let pos0 = positionStrParts[0];
         let pos1 = positionStrParts[1] || "center";
@@ -154,7 +154,7 @@ export class TooltipContent implements AfterViewInit {
         return targetElPos;
     }
 
-    private position(nativeEl): { width: number, height: number, top: number, left: number } {
+    private position(nativeEl: any): { width: number, height: number, top: number, left: number } {
         let offsetParentBCR = { top: 0, left: 0 };
         const elBCR = this.offset(nativeEl);
         const offsetParentEl = this.parentOffsetEl(nativeEl);
@@ -183,7 +183,7 @@ export class TooltipContent implements AfterViewInit {
         };
     }
 
-    private getStyle(nativeEl, cssProp: string): string {
+    private getStyle(nativeEl: any, cssProp: string): string {
         if ((nativeEl as any).currentStyle) // IE
             return (nativeEl as any).currentStyle[cssProp];
 
@@ -194,11 +194,11 @@ export class TooltipContent implements AfterViewInit {
         return (nativeEl.style as any)[cssProp];
     }
 
-    private isStaticPositioned(nativeEl): boolean {
+    private isStaticPositioned(nativeEl: any): boolean {
         return (this.getStyle(nativeEl, "position") || "static" ) === "static";
     }
 
-    private parentOffsetEl(nativeEl): any {
+    private parentOffsetEl(nativeEl: any): any {
         let offsetParent: any = nativeEl.offsetParent || window.document;
         while (offsetParent && offsetParent !== window.document && this.isStaticPositioned(offsetParent)) {
             offsetParent = offsetParent.offsetParent;
