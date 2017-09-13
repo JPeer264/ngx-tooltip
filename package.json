@@ -1,5 +1,5 @@
 {
-  "name": "ngx-tooltip",
+  "name": "ngx-tooltip-server",
   "version": "0.0.9",
   "description": "Simple tooltip control for your angular2 applications using bootstrap3.",
   "license": "MIT",
@@ -9,12 +9,16 @@
     "name": "Umed Khudoiberdiev",
     "email": "pleerock.me@gmail.com"
   },
+  "coauthor": {
+    "name": "Jan Peer Stöcklmair",
+    "email": "janpeer264@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pleerock/ngx-tooltip.git"
+    "url": "https://github.com/JPeer264/ngx-tooltip-server.git"
   },
   "bugs": {
-    "url": "https://github.com/pleerock/ngx-tooltip/issues"
+    "url": "https://github.com/JPeer264/ngx-tooltip-server/issues"
   },
   "tags": [
     "tooltip",
