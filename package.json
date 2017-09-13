@@ -1,6 +1,6 @@
 {
   "name": "ngx-tooltip-server",
-  "version": "0.0.10-alpha.0",
+  "version": "1.0.0",
   "description": "Simple tooltip control for your Angular applications using bootstrap3.",
   "license": "MIT",
   "readmeFilename": "README.md",
