@@ -1,6 +1,6 @@
-# ngx-tooltip-aot
+# ngx-tooltip-server
 
-> This is a fork of [pleerock/ngx-tooltip](https://github.com/pleerock/ngx-tooltip). But with AOT compilation support.
+> This is a fork of [pleerock/ngx-tooltip](https://github.com/pleerock/ngx-tooltip), but with server-side rendering support.
 
 Simple tooltip control for your angular2 applications using bootstrap3. Does not depend of jquery.
 If you want to use it without bootstrap - simply create proper css classes. Please star a project if you liked it, or create an issue if you have problems with it.
