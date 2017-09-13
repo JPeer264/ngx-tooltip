@@ -1,6 +1,6 @@
 {
   "name": "ngx-tooltip-server",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Simple tooltip control for your angular2 applications using bootstrap3.",
   "license": "MIT",
   "readmeFilename": "README.md",
@@ -37,7 +37,6 @@
     "@angular/forms": "^2.4.3",
     "@angular/platform-browser": "^2.4.3",
     "@angular/platform-browser-dynamic": "^2.4.3",
-
     "@types/node": "^7.0.0",
     "bootstrap": "^3.3.7",
     "chai": "^3.4.1",
