@@ -11,17 +11,17 @@ If you want to use it without bootstrap - simply create proper css classes. Plea
 
 1. Install npm module:
 
-    `npm install ngx-tooltip --save`
+    `npm install ngx-tooltip-server --save`
 
 2. If you are using system.js you may want to add this into `map` and `package` config:
 
     ```json
     {
         "map": {
-            "ngx-tooltip": "node_modules/ngx-tooltip"
+            "ngx-tooltip-server": "node_modules/ngx-tooltip-server"
         },
         "packages": {
-            "ngx-tooltip": { "main": "index.js", "defaultExtension": "js" }
+            "ngx-tooltip-server": { "main": "index.js", "defaultExtension": "js" }
         }
     }
     ```
@@ -63,7 +63,7 @@ Example of usage with dynamic html content:
 
 ```typescript
 import {Component} from "@angular/core";
-import {TooltipModule} from "ngx-tooltip";
+import {TooltipModule} from "ngx-tooltip-server";
 
 @Component({
     selector: "app",
@@ -112,5 +112,5 @@ export class AppModule {
 }
 ```
 
-Take a look on samples in [./sample](https://github.com/pleerock/ngx-tooltip/tree/master/sample) for more examples of
+Take a look on samples in [./sample](https://github.com/JPeer264/ngx-tooltip-server/tree/master/sample) for more examples of
 usages.
