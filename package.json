@@ -42,7 +42,6 @@
     "@types/node": "^7.0.0",
     "bootstrap": "^3.3.7",
     "chai": "^3.4.1",
-    "codelyzer": "^3.2.0",
     "del": "^2.2.2",
     "es6-shim": "^0.35.2",
     "reflect-metadata": "^0.1.9",
@@ -51,5 +50,8 @@
     "tslint": "^5.7.0",
     "typescript": "^2.4.2",
     "zone.js": "^0.8.17"
+  },
+  "dependencies": {
+    "codelyzer": "^3.2.0"
   }
 }
