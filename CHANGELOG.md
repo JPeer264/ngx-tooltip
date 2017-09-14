@@ -1,3 +1,9 @@
+1.0.2 - September, 14 2017
+
+* e18daf0 chore(fix): remove tslint codelyzer rules (JPeer264)
+* 7b38ca0 1.0.1 (JPeer264)
+* 05514df 1.0.1 (JPeer264)
+
 1.0.1 - September, 14 2017
 
 * dcc738f fix: add codelyzer into dependencies (JPeer264)
