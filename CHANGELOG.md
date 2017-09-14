@@ -1,3 +1,15 @@
+1.0.1 - September, 14 2017
+
+* dcc738f fix: add codelyzer into dependencies (JPeer264)
+* 2bb559f 1.0.0 (JPeer264)
+* 2e5f556 Chore: remove husky (JPeer264)
+* 882c269 Docs: update usage (JPeer264)
+* e65b722 Refactor: remove unnecessary stuff (JPeer264)
+* f7dd796 Refactor: rewrite for Angular 4 (JPeer264)
+* f203ead Chore: update scripts and dependencies (JPeer264)
+* b984482 0.0.10 (JPeer264)
+* c256dc1 0.0.10 (JPeer264)
+
 0.0.10 - September, 13 2017
 
 * 33108a9 Docs: update usage (JPeer264)
