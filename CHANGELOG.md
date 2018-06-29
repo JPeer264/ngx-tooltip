@@ -1,3 +1,7 @@
+1.1.1 - June, 29 2018
+
+* aefcb4d Chore: change release cycle (closes #3) (JPeer264)
+
 1.1.0 - January, 07 2018
 
 * 969af17 Feat: add angular package format (JPeer264)
