@@ -1,9 +1,5 @@
 {
   "name": "ngx-tooltip-server",
-  "module": "./dist/ngx-tooltip-server.js",
-  "es2015": "./dist/ngx-tooltip-server.es5.js",
-  "main": "./dist/bundles/ngx-tooltip-server.umd.js",
-  "typings": "./dist/ngx-tooltip-server.d.ts",
   "version": "1.1.0",
   "description": "Simple tooltip control for your Angular applications using bootstrap3.",
   "license": "MIT",
